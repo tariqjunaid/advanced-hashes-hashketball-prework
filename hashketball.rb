@@ -206,7 +206,7 @@ def player_with_longest_name
       longest_name << p_data[:player_name]
     end
   end
-longest_name.max_by { |name| name.length }
+longest_name.max_by { |name| name.to_a.length }
 end
 
 def long_name_steals_a_ton?
