@@ -216,8 +216,8 @@ def long_name_steals_a_ton?
       longest[p_data[:player_name]] = p_data[:steals]
     end
   end
-max_steals = longest.values.max
-longest[longest.key(max_steals)] == max_steals
+  max_steals = longest.values.max
+  longest[longest.key(max_steals)] == max_steals
 end
 
 
