@@ -184,7 +184,7 @@ def most_points_scored
       end
     end
   end
-player
+  player
 end
 
 def winning_team
@@ -196,7 +196,7 @@ def winning_team
     end
     winner[data[:team_name]] = team_points
   end
-winner.key(winner.values.max)
+  winner.key(winner.values.max)
 end
 
 def player_with_longest_name
@@ -206,7 +206,7 @@ def player_with_longest_name
       longest_name << p_name
     end
   end
-longest_name.max_by { |name| name.length }
+  longest_name.max_by { |name| name.length }
 end
 
 def long_name_steals_a_ton?
