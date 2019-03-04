@@ -200,7 +200,7 @@ def winning_team
 end
 
 def player_with_longest_name
-  longest_name = nil
+  longest_name = ""
   game_hash.each do |team, data|
     data[:players].each do |p_name, p_data|
       longest_name << p_name
