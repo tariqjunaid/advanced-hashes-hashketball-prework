@@ -211,6 +211,7 @@ def player_with_longest_name
 longest_name.max_by { |name| name.length }
 binding.pry
 end
+player_with_longest_name
 
 def long_name_steals_a_ton?
   
