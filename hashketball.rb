@@ -191,7 +191,8 @@ def winning_team
   winner = nil
   game_hash.each do |team, data|
     team_points = 0
-    data[:players]
+    data[:players].each do |p_name, p_data|
+      
 end
 
 def player_with_longest_name
