@@ -196,7 +196,7 @@ def winning_team
     end
     winner[data[:team_name]] = team_points
   end
-  winner.key(winner.values.max)
+  winner.[:team_name]
 end
 
 def player_with_longest_name
