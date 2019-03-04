@@ -180,7 +180,7 @@ def most_points_scored
     data[:players].each do |p_name, p_data|
       if p_data[:points] > points_scored
         points_scored = p_data[:points]
-        player = player
+        player = p_name
       end
     end
   end
